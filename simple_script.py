@@ -11,6 +11,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 print 'Hello there!'
-data = np.random.normal(0,1,2000)
+data = np.random.normal(0,1,200000)
 plt.hist(data,100)
 plt.show()
